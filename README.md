@@ -1,6 +1,6 @@
 # PHP_M2
 ## Sprint 2
-####Objectius:
+#### Objectius:
 
 Identificar les diferents parts de l’element bàsic de HTML, les tags o etiquetes.
 
