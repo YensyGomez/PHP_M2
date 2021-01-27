@@ -16,22 +16,31 @@ header {
     width: auto;
     height: 83px;
     background-color:black;
+    padding: 112px;
+    margin-bottom:20px;
 
 }
 .slice {
-  padding: 80px;
-  text-align: center;
-  background: #1abc9c;
-  color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap:20px;
+  margin-bottom:20px;
 }
 
 /* Increase the font size of the heading */
-.slice h1 {
+.slice p {
   font-size: 40px;
+  background-color: #1abc9c;
+  padding: 80px;
+  text-align: center;
+  color: white;
 }
 
 /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
 .navbar {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap:10px;
   overflow: hidden;
   position: sticky;
   position: -webkit-sticky;
@@ -46,7 +55,7 @@ header {
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
-  background :blueviolet;
+  background :gray;
 }
 
 
@@ -67,22 +76,6 @@ header {
   color: white;
 }
 
-/* Column container */
-.row {  
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-}
-
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
-.side {
-  -ms-flex: 30%; /* IE10 */
-  flex: 30%;
-  background-color: #f1f1f1;
-  padding: 20px;
-}
 
 /* Main column */
 .main {   
@@ -90,8 +83,10 @@ header {
   flex: 70%;
   background-color: white;
   padding: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 24px;
 }
-
 /* Fake image, just for this example */
 .fakeimg {
   background-color: #aaa;
@@ -101,16 +96,9 @@ header {
 
 /* Footer */
 .footer {
-  padding: 20px;
+  padding: 80px;
   text-align: center;
-  background: #ddd;
-}
-
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
-  .row {   
-    flex-direction: column;
-  }
+  background:black;
 }
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */

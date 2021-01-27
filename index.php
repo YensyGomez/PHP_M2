@@ -9,7 +9,9 @@
 <body>
 
 <!-- cabecera pagina principal -->
-<header></header>
+<header>
+<a href="#" class="right">Link</a>
+</header>
 <!-- Barra de navegacion -->
 <nav class="navbar">
   <a href="#">Link</a>
@@ -17,12 +19,12 @@
   <a href="#">Link</a>
   <a href="#">Link</a>
   <a href="#">Link</a>
-  <a href="#" class="right">Link</a>
 </nav>
 <!-- Slice de imagenes  -->
-<div id="slice" class="slice">
-  <h1>Helena Gómez</h1>
-  <p><b>Don't apologize for being a powerful woman.</b></p>
+<div class ="slice">
+  <p>Item 1</p>
+  <p>Item 2</p>
+  <p>Item 3</p>
 </div>
 <!-- Barra de slice manual -->
 <div id="botonera"></div>
