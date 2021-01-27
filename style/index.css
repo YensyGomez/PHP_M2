@@ -18,8 +18,14 @@ header {
     background-color:black;
     padding: 112px;
     margin-bottom:20px;
-
 }
+.logo {
+  float: left;
+}
+.redes{
+  float: right;
+}
+
 .slice {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

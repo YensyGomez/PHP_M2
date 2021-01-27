@@ -10,7 +10,10 @@
 
 <!-- cabecera pagina principal -->
 <header>
-<a href="#" class="right">Link</a>
+  <img class= "logo" src="images/logo1.png" alt="joint" width="230" height="90">
+  <img class= "redes" src="images/twitter.png" alt="twitter" width="50" height="50">
+  <img class= "redes" src="images/linkedin.png" alt="linkedin" width="50" height="50">
+  <img class= "redes" src="images/instagram.png" alt="instagram" width="50" height="50">
 </header>
 <!-- Barra de navegacion -->
 <nav class="navbar">
