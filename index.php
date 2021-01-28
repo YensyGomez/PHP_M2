@@ -5,52 +5,46 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="style/index.css" type="text/css" rel="stylesheet">
+
 </head>
 <body>
+<?php include 'header.php';?>
 
-<!-- cabecera pagina principal -->
-<header>
-  <img class= "logo" src="images/logo1.png" alt="joint" width="230" height="90">
-  <img class= "redes" src="images/twitter.png" alt="twitter" width="50" height="50">
-  <img class= "redes" src="images/linkedin.png" alt="linkedin" width="50" height="50">
-  <img class= "redes" src="images/instagram.png" alt="instagram" width="50" height="50">
-</header>
 <!-- Barra de navegacion -->
 <nav class="navbar">
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
+  <a href="#">Home</a>
+  <a href="#">Who are we</a>
+  <a href="#">Statistics</a>
+  <a href="#">Discover</a>
+  <a href="#">Contact</a>
 </nav>
+
 <!-- Slice de imagenes  -->
 <div class ="slice">
-  <p>Item 1</p>
-  <p>Item 2</p>
-  <p>Item 3</p>
+  <img src="images/woman1.jpg">
+  <img  src="images/woman2.jpg">
+  <img src="images/woman3.jpg">
 </div>
-<!-- Barra de slice manual -->
-<div id="botonera"></div>
 
 <!-- Contenido de la página -->
 <div class="main">
     <h2>TITLE HEADING</h2>
     <h5>Title description, Dec 7, 2017</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
+    <div style="height:200px;">Image</div>
     <p>Some text..</p>
     <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
     <br>
     <h2>TITLE HEADING</h2>
     <h5>Title description, Sep 2, 2017</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
+    <div  style="height:200px;">Image</div>
     <p>Some text..</p>
     <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <button class="button">see more</button>
+
+    </div>
 </div>
 
-<!-- Pie de página -->
-<Footer class="footer">
-  <h2>Footer</h2>
-</Footer>
+<?php include 'footer.php';?>
 
 </body>
 </html>
